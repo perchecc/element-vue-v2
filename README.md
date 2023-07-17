@@ -1,2 +1,2 @@
-# vue2-cms-template
-vue全家桶 + element ui + axios + amap + tailwindcss 项目模板
+# element-vue-v2
+vue全家桶 + element ui + axios + tailwindcss 项目模板
