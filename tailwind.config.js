@@ -1,4 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+const isProduction = process.env.NODE_ENV === 'production'
+const purge = isProduction ? { enabled: true,
+	preserveHtmlElements: false,
+	content: ['./index.html', './src/**/*.html', './src/**/*.vue', './src/**/*.jsx'], } : {}
 module.exports = {
 	// mode: "jit",
 	prefix: 'tw-',
@@ -9,9 +13,5 @@ module.exports = {
 	plugins: [],
 	content: ['./index.html', './src/**/*.{vue,js,ts,jsx}'],
 	// 生产环境配置减少未使用的样式类
-	purge: {
-		enabled: true,
-		preserveHtmlElements: false,
-		content: ['./index.html', './src/**/*.html', './src/**/*.vue', './src/**/*.jsx'],
-	},
+	purge
 };
