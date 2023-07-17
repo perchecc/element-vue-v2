@@ -12,7 +12,6 @@ module.exports = {
 	parser: 'vue-eslint-parser',
 	plugins: ['vue'],
 	rules: {
-		// 'import/prefer-default-export': 'off',
 		'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
 		eqeqeq: 'off',
 		'no-param-reassign': [

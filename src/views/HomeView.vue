@@ -1,6 +1,6 @@
 <template>
 	<div class="home">
-		<el-button    type="primary" size="default">你好呀</el-button>
+		<el-button type="primary" size="default">你好呀</el-button>
 	</div>
 </template>
 

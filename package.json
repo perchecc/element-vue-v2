@@ -6,13 +6,7 @@
 		"serve:dev": "vue-cli-service serve  --mode development --watch",
 		"serve:prod": "vue-cli-service serve  --mode production --watch",
 		"build:dev": "set NODE_ENV=production&vue-cli-service build --mode development",
-		"build:prod": "set NODE_ENV=production&vue-cli-service build  --mode production",
-		"lint": "eslint ./index.js --fix"
-	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "echo \"[Husky] pre-commit\""
-		}
+		"build:prod": "set NODE_ENV=production&vue-cli-service build  --mode production"
 	},
 	"dependencies": {
 		"core-js": "^3.8.3",
@@ -35,8 +29,7 @@
 		"eslint-import-resolver-alias": "^1.1.2",
 		"eslint-plugin-import": "^2.26.0",
 		"eslint-plugin-prettier": "^4.2.1",
-		"eslint-plugin-vue": "^9.8.0",
-		"husky": "^8.0.3",
+		"eslint-plugin-vue": "^9.15.1",
 		"mini-css-extract-plugin": "^2.7.6",
 		"postcss": "^7.0.39",
 		"prettier": "^2.8.1",
